@@ -1,0 +1,14 @@
+{
+    "source": ["tokens.json"],
+    "platforms": {
+      "css": {
+        "transformGroup": "css",
+        "files": [
+          {
+            "destination": "theme/src/css/vars/_colors_from_tokens.css",
+            "format": "css/variables"
+          }
+        ]
+      }
+    }
+  }
